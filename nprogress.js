@@ -11,7 +11,7 @@ $(function () {
     spinnerSelector: '[role="spinner"]',
     parent: "body",
     template:
-      '<div class="bar" role="bar"><div class="peg"><img src="./assets/picachu.gif" width="50px"/></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>',
+      '<div class="bar" role="bar"><div class="peg"><img src="./picachu.gif" width="50px"/></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>',
   });
   NProgress.start();
 
